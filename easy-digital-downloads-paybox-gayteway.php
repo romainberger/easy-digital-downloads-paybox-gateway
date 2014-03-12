@@ -333,7 +333,7 @@ class EasyDigitalDownloadsPaybox {
      * @return array
      */
     private function getDataTransaction($result) {
-        $results = explode('&',$result);
+        $results = explode('&', $result);
         $transaction = array();
 
         foreach ($results as $result) {
